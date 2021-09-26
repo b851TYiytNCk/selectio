@@ -7,12 +7,11 @@ document.addEventListener("DOMContentLoaded", function() {
 		window.addEventListener(event, function(e) {
 			
 			if ( e.target === select && !(select.classList.contains('is-open')) ) {
-
+				
 				select.classList.add('is-open');
 
-				
+			}
 
-			} 
 			else if ( Array.from(items).includes(e.target) ) {
 
 				select.querySelector('span').textContent = e.target.textContent;
@@ -28,11 +27,12 @@ document.addEventListener("DOMContentLoaded", function() {
 				select.classList.remove('is-open');
 
 			} else {
+				
 				if ( select.classList.contains('is-open') ) select.classList.remove('is-open');
+				
 			}
 
 		});
 	});
 
-	
 });
