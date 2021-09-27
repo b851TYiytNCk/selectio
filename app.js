@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
 			
 			if ( e.target === select && !(select.classList.contains('is-open')) ) {
 				
-				if( !canRestHere(select, 330) ) {
+				if( !canRestHere(select, 254) ) {
 					list.classList.add('inverted');
 				} else {
 					list.classList.remove('inverted');
