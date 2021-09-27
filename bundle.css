@@ -14,7 +14,7 @@ body {
 .select {
   position: relative;
   width: 9.375em;
-  height: 3.125em;
+  height: 3em;
   margin: 50em auto;
   padding: 0.625em 0.9375em;
   background-color: #fff;
@@ -68,7 +68,7 @@ body {
   position: absolute;
   display: none;
   width: 100%;
-  top: 2.875em;
+  top: 2.75em;
   left: 0;
   background-color: #fff;
   list-style: none;
@@ -81,6 +81,7 @@ body {
   padding-left: 0.9375em;
   overflow: hidden;
   white-space: nowrap;
+  line-height: 1.5em;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -115,7 +116,7 @@ body {
      -moz-box-direction: reverse;
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
-  top: -15.55em; }
+  top: -17.35em; }
 
 .is-animated > ul, .is-animated > ul li, .is-animated:before {
   -webkit-transition: all 0.3s ease;
